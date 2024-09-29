@@ -23,3 +23,8 @@
     icon, select coding (first one) and then Thonny.
 
 --> Now, you are ready to code ! I was inspired by [Pascal from Gagnebin.tech](https://gagnebin.tech/joy-pi/) to make this tutorial so don't hesitate to go on it.
+
+> [!IMPORTANT]
+> **To use all of sensors and components, you need to use the switch according to the sensor because they use different ones but I'll tell you when you'll to move it !**
+
+# I hope you'll have fun !!
