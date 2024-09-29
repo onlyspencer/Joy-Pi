@@ -10,4 +10,4 @@
         
 ## First, Download and Getting Started
 
-1. Firstly, you need to install any OS on your Raspberry Pi ! Personaly, I chose [**Raspbian**](https://www.raspberrypi.com/software/)
+1. Firstly, you need to install any OS on your Raspberry Pi ! Personaly, I chose [**Raspbian**](**https://www.raspberrypi.com/software/**)
