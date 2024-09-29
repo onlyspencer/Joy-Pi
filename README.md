@@ -1,7 +1,7 @@
 # JOY PI IT - HOW TO USE IT ?
 
 > [!IMPORTANT]
-> You can only use Joy Pi It with Raspberry Pi 3B+ and 4B !
+> **You can only use Joy Pi It with Raspberry Pi 3B+ and 4B !**
 
 ## Hello Guys !!
 
