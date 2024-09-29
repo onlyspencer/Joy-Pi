@@ -19,8 +19,16 @@
 3. To don't get in trouble, you need to also install some libraries on your Raspberry Pi. First, go on the command prompt, and type this :
    
 ```python
-sudo get-apt install python-pip3 # It'll allow to use 'pip3 install...' instead of 'sudo apt get install...'
+sudo get-apt install python-pip3'
 ```
+> It'll allow to use 'pip3 install...' instead of 'sudo apt get install...'
+> Next, you have to install RPi.GPIO library this way:
+
+```python
+sudo apt-get install rpi.gpio
+```
+
+--> Do it again for these libraries : **time** ; **datetime** ;
 
 ## Now, let's start to code
 
