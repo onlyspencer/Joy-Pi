@@ -40,6 +40,7 @@ try:
       GPIO.output(vibration_pin, GPIO.HIGH)
       time.sleep(0.5)
       GPIO.output(vibration_pin, GPIO.LOW)
+      sys.exit(0)
 
 except KeyboardInterrupt:
   pass
