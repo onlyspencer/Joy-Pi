@@ -1,3 +1,5 @@
+# TO MAKE THIS COMPONENT FUNCTIONAL, PUT OFF ALL SWITCHES
+
 import sys # Importing sys library
 import time # Importing time library
 from mfrc522 import SimpleMFRC522 # Importing mfrc522 library to use RFID reader
