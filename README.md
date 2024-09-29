@@ -10,4 +10,16 @@
         
 ## First, Download and Getting Started
 
-1. Firstly, you need to install any OS on your Raspberry Pi ! Personaly, I chose [**Raspbian**](**https://www.raspberrypi.com/software/**)
+1. Firstly, you need to install any OS on your Raspberry Pi ! Personaly, I chose [**Raspbian**](https://www.raspberrypi.com/software/), the easiest to use !
+|-> Go on [**Raspbian.com**](https://www.raspberrypi.com/software/) and download Raspberry Pi Imager on your PC
+        -> When installed, select your Raspberry model, the OS you want (Raspberry Pi OS for my part) and finally chose when you want to install it (SD Card)
+        -> Then, put your SD Card in Raspberry Pi and let's start !
+
+2. Connect your Raspberry Pi to Joy It by the HDMI, the GPIO and the last cable on any USB port
+
+## Now, let's start to code
+
+--> On the Raspberry Pi, you have 2 softwares to code : Thonny and Geany. We'll use Thonny for this tutorial ! To open Thonny, go on top left and corner on raspbian 
+    icon, select coding (first one) and then Thonny.
+
+--> Now, you are ready to code ! I was inspired by [Pascal from Gagnebin.tech](https://gagnebin.tech/joy-pi/) to make this tutorial so don't hesitate to go on it.
