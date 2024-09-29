@@ -28,7 +28,7 @@ sudo get-apt install python-pip3'
 sudo apt-get install rpi.gpio
 ```
 
---> Do it again for these libraries : **time** ; **datetime** ;
+--> Do it again for these libraries : **time** ; **datetime** ; **warnings**
 
 ## Now, let's start to code
 
