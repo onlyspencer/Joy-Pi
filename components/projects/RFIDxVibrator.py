@@ -4,6 +4,8 @@ import sys # Importing sys library
 import time # Importing time library
 from mfrc522 import SimpleMFRC522 # Importing mfrc522 library to use RFID reader
 reader = SimpleMFRC522()
+import warnings # Importing warnings to remove useless warnings
+warnings.filterwarnings("ignore")
 
 vibration_pin = 13 # The vibrator sensor is connected by the pin 13
 
