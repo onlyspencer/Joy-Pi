@@ -15,12 +15,12 @@ GPIO.setup(vibration_pin, GPIO.OUT) # The vibrator is defined as Output Sensor
 try:
   for i in range(1):
     print('Please put your badge on RFID reader')
-    authentificated = False
+    authenticated = False
     
-    while not authentificated:
+    while not authenticated:
       try:
         id, text = reader.read()
-        authentificated = True
+        authenticated = True
       except Exception as e:
         print(f'Auth Error : {e}')
         time.sleep(1)
