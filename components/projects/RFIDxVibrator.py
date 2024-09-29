@@ -14,7 +14,7 @@ GPIO.setup(vibration_pin, GPIO.OUT) # The vibrator is defined as Output Sensor
 
 try:
   for i in range(1):
-    print('Please put your badge on RFID reader')
+    print('Please put your tag on RFID reader')
     authenticated = False
     
     while not authenticated:
@@ -26,7 +26,7 @@ try:
         time.sleep(1)
     
     if text.strip():
-      print(f'Badge ID: {id}')
+      print(f'Tag ID: {id}')
       if id == '123456654321':
         name = 'John'
         print('Welcome', name, '!')
@@ -36,7 +36,7 @@ try:
       else:
         print(f"ID: {id}, Content: {text}")
     else:
-      print('Invalid Badge ! Rebooting in progress...')
+      print('Invalid tag ! Rebooting in progress...')
       GPIO.output(vibration_pin, GPIO.HIGH)
       time.sleep(0.5)
       GPIO.output(vibration_pin, GPIO.LOW)
