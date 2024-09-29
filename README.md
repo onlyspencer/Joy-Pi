@@ -16,6 +16,10 @@
         -> Then, put your SD Card in Raspberry Pi and let's start !
 
 2. Connect your Raspberry Pi to Joy It by the HDMI, the GPIO and the last cable on any USB port
+3. To don't get in trouble, you need to also install some libraries on your Raspberry Pi. First, go on the command prompt, and type this :
+        1.   ```python
+             sudo get-apt install python-pip3 # It'll allow to use 'pip3 install...' instead of 'sudo apt get install...'
+             ```
 
 ## Now, let's start to code
 
