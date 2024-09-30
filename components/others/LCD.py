@@ -20,7 +20,6 @@ lcd.backlight = True # Screen Display ON
 
 try:
   while True:
-    now = dt.datetime.now()
     lcd.message = 'Hello World!' # I made a project with LCD
 
 except KeyboardInterrupt:
