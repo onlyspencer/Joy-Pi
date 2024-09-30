@@ -1,6 +1,6 @@
-# TO MAKE THIS COMPONENT FUNCTIONAL, PUT OFF ALL SWITCHES
 # YOU NEED TO INSTALL 2 MORE LIBRARIES : adafruit-circuitpython-charlcd and Blinkaio !
 # TO INSTALL BLINKA, YOU SHOULD FOLLOW THIS PAGE: https://gallaugher.com/makersnack-installing-circuitpython-on-a-raspberry-pi/
+# TO MAKE THIS COMPONENT FUNCTIONAL, PUT OFF ALL SWITCHES
 
 import time # Importing time
 import datetime as dt # Importing datetime
